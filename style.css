@@ -45,3 +45,32 @@ header{
     
 }
    /* header ends here */
+
+   /* feature start here */
+    #feature{
+        padding: 5% 10%;
+        background-color: #e8ded2;
+    }
+
+.feature-col{
+
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    transition:.3s;
+    margin: 20px 0;
+
+}
+.feature-col:hover{
+
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.icon-style{
+    background-color: #ff02c0;
+    padding: 15px;
+    margin: 5px 0;
+    color: white;
+}
+
+    /* feature end here */
